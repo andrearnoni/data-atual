@@ -12,7 +12,7 @@ public class Data {
     this.data = data;
   }
 
-  @JsonFormat(pattern = "EEEE, MMM dd, yyyy HH:mm:ss a")
+  @JsonFormat(pattern = "EEEE, MMM dd, yyyy HH:mm:ss.SSS")
   public LocalDateTime getData() {
     return data;
   }
